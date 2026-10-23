@@ -1,0 +1,18 @@
+{
+  "geode": "4.0.0",
+  "gd": { "win": "2.2091" },
+  "id": "mminionnn.input-buffer",
+  "name": "Input Buffer",
+  "version": "v1.0.0",
+  "developer": "mminionnn",
+  "description": "Buffers clicks for 2/4/8/16 physics steps.",
+  "settings": {
+    "enabled": { "type": "bool", "name": "Enabled", "default": true },
+    "buffer-frames": {
+      "type": "string",
+      "name": "Buffer Frames",
+      "default": "4",
+      "one-of": ["2", "4", "8", "16"]
+    }
+  }
+}
